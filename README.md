@@ -1,6 +1,6 @@
 # Github workflow automation
 
-How to run complete project using Docker:
+# How to run complete project using Docker:
 
 -Clone the repository using command -> git clone https://github.com/abhishrm/github_api_assignmemt.git
 
@@ -23,7 +23,7 @@ How to run complete project using Docker:
 -There is no as such manual intervention required. You only need to trigger bash script "build_and_run.sh"
 
 
-How to run the test locally by creating a virtual environment cloning the repository
+# How to run the test locally by creating a virtual environment cloning the repository
 
 -Install virtualenv by passing command "pip install virtualenv".
 
