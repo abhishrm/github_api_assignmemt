@@ -40,11 +40,16 @@
 -Now you can install dependencies by navigating to github_project directory.
  This directory contains all dependencies in "requirements.txt"
  Install all dependencies by running command : pip install -r ./requirements.txt
-
--Once you are done with the work, you can deactivate the virtual environment by the following command:deactivate
+ 
+-Navigate to the project path folder on the command line -> /github_project/src/steps. 
+-Under step folder run the command like -> pytest -s -v test_github_keyword_file.py -s -v --html=github_result.html
 
 On windows command prompt it looks like,
 
-     C:/Users/Abhishek/Downloads/github_project/src/steps/test_github_keyword_file.py -s -v --html=github_result.html
+     C:/Users/Abhishek/Downloads/github_project/src/steps>pytest test_github_keyword_file.py -s -v --html=github_result.html
 
      where: 'github_project' is a directory where we check out automation code from repo
+     
+-You will find user friendly test report formed as github_result.html. You can open this html link to view the test result.
+
+-Once you are done with the work, you can deactivate the virtual environment by the following command:deactivate
