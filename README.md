@@ -12,7 +12,7 @@
 
 -If you do not pass this parameter, then this bash script will exit and will provide you instructions about passing a mandatory command line argument.
 
--Run this bash script by writing and then enter-> ./build_and_run.sh
+-Run this bash script by writing and then enter-> ./build_and_run.sh <user_defined_name_need_to_be_passed>
 
 -This bash script while running will create the image and will run the container .
 
